@@ -1,0 +1,9 @@
+digraph simple {
+    node [shape=ellipse, style=filled, fontname="Helvetica"];
+    A [label="Start", fillcolor="#a3d977"];
+    B [label="Process", fillcolor="#ffe07a"];
+    C [label="End", fillcolor="#f7a3a3"];
+
+    A -> B [label="do something"];
+    B -> C [label="finish"];
+}
